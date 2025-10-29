@@ -4,3 +4,4 @@
 2025-10-29 14:00:03, MOVE, v:1, k:poo@budega, mode:PICK
 2025-10-29 14:00:05, EXEC, v:1, k:poo@budega, mode:FULL, rate:0, size:0
 2025-10-29 14:00:07, MOVE, v:1, k:poo@budega, mode:BACK
+2025-10-29 14:01:02, MOVE, v:1, k:poo@lapiseira, mode:DOWN
