@@ -1,0 +1,22 @@
+version: '0.2'
+sources:
+- database: local
+  link: ''
+  type: local
+  branch: master
+  cache_path: ''
+  cache_timestamp: ''
+  filters: null
+- database: poo
+  link: /workspaces/poo-rc-bloco-c-Eduardoe239/myrep/.tko/cache/poo/Readme.md
+  type: clone
+  branch: master
+  cache_path: ''
+  cache_timestamp: ''
+  filters:
+  - listas
+expanded: []
+tasks: {}
+flags: {}
+lang: py
+selected: ''
