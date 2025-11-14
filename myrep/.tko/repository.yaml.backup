@@ -12,7 +12,7 @@ sources:
   type: clone
   branch: master
   cache_path: /workspaces/poo-rc-bloco-c-Eduardoe239/myrep/.tko/cache/poo/Readme.md
-  cache_timestamp: '2025-11-14 16:36:14'
+  cache_timestamp: '2025-11-14 20:36:11'
   filters:
   - listas
 expanded:
@@ -20,7 +20,8 @@ expanded:
 - poo@bloco_c-listas
 - poo@campanha-principal
 - poo@bloco_c-listas
-tasks: {}
+tasks:
+  poo@array: '{rate:100, alone:10}'
 flags:
   quests: 0
   tracks: 0

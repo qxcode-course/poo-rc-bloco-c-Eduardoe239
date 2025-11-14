@@ -2,8 +2,18 @@
     "patches": [
         {
             "label": "2025-10-29_14-00-05",
-            "content": "",
+            "content": "@@ -1,173 +0,0 @@\n-class Pessoa:%0A    def __init__(self, n: str):%0A        self.nome = n%0A%0A    def get_nome(self) -%3E str:%0A        return self.nome%0A%0A    def __str__(self):%0A        return self.nome\n",
             "lines": "0"
+        },
+        {
+            "label": "2025-11-14_19-36-44",
+            "content": "@@ -170,925 +170,4 @@\n nome\n-%0A    %0Aclass Budega:%0A    def __init__(self, caixas: int):%0A        self.caixas: list%5BPessoa %7C None%5D = %5BNone%5D*caixas%0A        self.fila: list%5BPessoa%5D = %5B%5D%0A%0A    def __str__(self):%0A        caixas = %5B(str(p) if p is not None else %22-----%22) for p in self.caixas%5D%0A        caixas_str = %22%5B%22 + %22, %22.join(caixas) + %22%5D%22%0A        fila = %5Bstr(p) for p in self.fila%5D%0A        fila_str = %22%5B%22 + %22, %22.join(fila) + %22%5D%22%0A        return f%22Caixas: %7Bcaixas_str%7D%5CnEspera: %7Bfila_str%7D%22%0A    %0A    def chegar(self, pessoa: Pessoa):%0A        self.fila.append(pessoa)%0A%0A    def chamar(self, i: int):%0A        if i %3C 0 or i %3E= len(self.caixas):%0A            print(%22fail: caixa inexistente%22)%0A            return%0A        %0A        if not self.fila:%0A            print(%22fail: sem clientes%22)%0A            return%0A        %0A        if self.caixas%5Bi%5D is not None:%0A            print(%22fail: caixa ocupado%22)%0A            return%0A        self.caixas%5Bi%5D = self.fila.pop(0)%0A        %0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2025-11-14_20-36-19",
+            "content": "class Pessoa:\n    def __init__(self, n: str):\n        self.nome = n\n\n    def get_nome(self) -> str:\n        return self.nome\n\n    def __str__(self):\n        return self.nome\n    \nclass Budega:\n    def __init__(self, caixas: int):\n        self.caixas: list[Pessoa | None] = [None]*caixas\n        self.fila: list[Pessoa] = []\n\n    def __str__(self):\n        caixas = [(str(p) if p is not None else \"-----\") for p in self.caixas]\n        caixas_str = \"[\" + \", \".join(caixas) + \"]\"\n        fila = [str(p) for p in self.fila]\n        fila_str = \"[\" + \", \".join(fila) + \"]\"\n        return f\"Caixas: {caixas_str}\\nEspera: {fila_str}\"\n    \n    def chegar(self, pessoa: Pessoa):\n        self.fila.append(pessoa)\n\n    def chamar(self, i: int):\n        if i < 0 or i >= len(self.caixas):\n            print(\"fail: caixa inexistente\")\n            return\n        \n        if not self.fila:\n            print(\"fail: sem clientes\")\n            return\n        \n        if self.caixas[i] is not None:\n            print(\"fail: caixa ocupado\")\n            return\n        self.caixas[i] = self.fila.pop(0)\n        \n",
+            "lines": "39"
         }
     ]
 }
