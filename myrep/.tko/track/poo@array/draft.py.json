@@ -2,8 +2,58 @@
     "patches": [
         {
             "label": "2025-10-31_00-55-15",
-            "content": "",
+            "content": "@@ -1,47 +0,0 @@\n-list = %5B'potato', 'zuva', 'zovo'%5D%0Aprint(%22l(2)%22)\n",
             "lines": "0"
+        },
+        {
+            "label": "2025-11-04_13-33-37",
+            "content": "@@ -1,12 +1,31 @@\n+@@ -1,49 +1,46 @@%0A-\n list = (\n %5B'po\n@@ -20,17 +20,19 @@\n list = (\n-%5B\n+%255B\n 'potato'\n@@ -51,21 +51,99 @@\n ovo'\n-%5D)%0Aprint(list%5B2%5D)\n+%255D)%250Aprint(%2522l%255B2%255D%2522)%0A+@@ -39,9 +39,9 @@%250A t(%252522l%250A-%25255B2%25255D%250A+(2)%250A %252522)%250A%0A\n",
+            "lines": "3"
+        },
+        {
+            "label": "2025-11-04_13-34-36",
+            "content": "@@ -44,7 +44,7 @@\n ist%5B\n-1\n+2\n %5D)\n",
+            "lines": "2"
+        },
+        {
+            "label": "2025-11-04_13-34-46",
+            "content": "@@ -44,7 +44,7 @@\n ist%5B\n-0\n+1\n %5D)\n",
+            "lines": "2"
+        },
+        {
+            "label": "2025-11-04_13-34-54",
+            "content": "@@ -0,0 +1,50 @@\n+list = (%5B'potato', 'zuva', 'zovo'%5D)%0Aprint(list%5B0%5D)\n",
+            "lines": "2"
+        },
+        {
+            "label": "2025-11-14_16-36-27",
+            "content": "@@ -1,856 +0,0 @@\n-import random%0A%0A%0Alistinha = %5B%5D%0Alistinha_nova = %5B%5D%0A%0Alistitinha = %5B1, 2, 3, 4, 5, 6, 7, 8, 9, 10%5D%0A%0At = len(listitinha)%0A%0Alistitinha.append(10)%0Au = listitinha.pop()%0A%0Alistitinha.insert(3, 79)%0Ar = listitinha.pop(6)%0A%0Alistonha = %5B0, 34, 56%5D%0Aform = %22, %22.join(str(z) for z in listonha)%0Aprint(form)%0A%0Aj = 23%0Aseq = list(range(j+1))%0A%0Aaleatorio = %5Brandom.randint(0, 25) for _ in range(5)%5D%0A%0A%0Ap = listitinha%5B0%5D%0Ault = listitinha%5B-1%5D%0A%0Afor element in listitinha:%0A    print(element)%0A%0Afor i in range(len(listitinha)):%0A    print(i, listitinha%5Bi%5D)%0A%0Az = 367%0Aachou = False%0Afor i in listitinha:%0A    if i == z:%0A        achou = True%0A        break%0A%0A%0Aif z in listinha:%0A    print(%22ta na lista%22)%0A%0A%0A%0Apar = %5Bz for z in listinha if z %25 2 == 0%5D%0A%0Aquadradin = %5Bz*z for z in listitinha%5D%0A%0Ax = 9%0Aif x in listitinha:%0A    listitinha.remove(x)%0A%0Ax = 2%0Alistitinha = %5Be for e in listitinha if e != x%5D%0A%0A%0A%0A%0A\n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-11-14_17-39-32",
+            "content": "@@ -661,20 +661,23 @@\n )%0A%0A%0A\n-p\n+%0Apar\n  = %5B\n-x\n+z\n  for \n-x\n+z\n  in \n@@ -685,42 +685,26 @@\n isti\n-ti\n nha if \n-x\n+z\n  %25 2 =\n+=\n  0%5D\n- # type: ignore\n %0A%0Aqu\n",
+            "lines": "62"
+        },
+        {
+            "label": "2025-11-14_17-52-20",
+            "content": "@@ -661,23 +661,20 @@\n )%0A%0A%0A\n-%0Apar\n+p\n  = %5B\n-z\n+x\n  for \n-z\n+x\n  in \n@@ -682,26 +682,42 @@\n isti\n+ti\n nha if \n-z\n+x\n  %25 2 =\n-=\n  0%5D\n+ # type: ignore\n %0A%0Aqu\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-11-14_17-52-41",
+            "content": "@@ -656,16 +656,61 @@\n ista%22)%0A%0A\n+%0A%0Apar = %5Bz for z in listinha if z %25 2 == 0%5D%0A%0A\n quadradi\n",
+            "lines": "62"
+        },
+        {
+            "label": "2025-11-14_17-53-14",
+            "content": "@@ -660,56 +660,8 @@\n %22)%0A%0A\n-%0Apares = %5Be for e in listitinha if e %25 2 == 0%5D%0A%0A\n quad\n@@ -695,17 +695,16 @@\n tinha%5D%0A%0A\n-%0A\n x = 9%0Aif\n@@ -747,17 +747,16 @@\n ove(x)%0A%0A\n-%0A\n x = 2%0Ali\n",
+            "lines": "58"
+        },
+        {
+            "label": "2025-11-14_18-41-00",
+            "content": "import random\n\n\nlistinha = []\nlistinha_nova = []\n\nlistitinha = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n\nt = len(listitinha)\n\nlistitinha.append(10)\nu = listitinha.pop()\n\nlistitinha.insert(3, 79)\nr = listitinha.pop(6)\n\nlistonha = [0, 34, 56]\nform = \", \".join(str(z) for z in listonha)\nprint(form)\n\nj = 23\nseq = list(range(j+1))\n\naleatorio = [random.randint(0, 25) for _ in range(5)]\n\n\np = listitinha[0]\nult = listitinha[-1]\n\nfor element in listitinha:\n    print(element)\n\nfor i in range(len(listitinha)):\n    print(i, listitinha[i])\n\nz = 367\nachou = False\nfor i in listitinha:\n    if i == z:\n        achou = True\n        break\n\n\nif z in listinha:\n    print(\"ta na lista\")\n\n\npares = [e for e in listitinha if e % 2 == 0]\n\nquadradin = [z*z for z in listitinha]\n\n\nx = 9\nif x in listitinha:\n    listitinha.remove(x)\n\n\nx = 2\nlistitinha = [e for e in listitinha if e != x]\n\n\n\n\n",
+            "lines": "63"
         }
     ]
 }

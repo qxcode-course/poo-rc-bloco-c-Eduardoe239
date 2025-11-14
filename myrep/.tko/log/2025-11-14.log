@@ -1,0 +1,65 @@
+2025-11-14 16:36:26, MOVE, v:1, k:poo@array, mode:PICK
+2025-11-14 16:36:27, EXEC, v:1, k:poo@array, mode:LOCK, rate:100, size:0
+2025-11-14 16:37:31, MOVE, v:1, k:poo@array, mode:BACK
+2025-11-14 16:37:45, MOVE, v:1, k:poo@array, mode:PICK
+2025-11-14 17:39:32, EXEC, v:1, k:poo@array, mode:LOCK, rate:0, size:62
+2025-11-14 17:39:41, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:39:41, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:40:02, MOVE, v:1, k:poo@array, mode:BACK
+2025-11-14 17:40:33, MOVE, v:1, k:poo@array, mode:PICK
+2025-11-14 17:40:34, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:40:37, MOVE, v:1, k:poo@array, mode:BACK
+2025-11-14 17:40:42, MOVE, v:1, k:poo@array, mode:PICK
+2025-11-14 17:52:20, EXEC, v:1, k:poo@array, mode:LOCK, rate:0, size:61
+2025-11-14 17:52:23, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:23, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:23, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:24, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:24, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:24, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:24, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:24, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:24, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:24, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:24, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:25, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:25, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:25, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:25, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:25, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:25, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:25, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:26, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:26, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:26, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:26, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:26, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:27, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:27, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:27, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:27, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:27, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:27, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:27, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:41, EXEC, v:1, k:poo@array, mode:LOCK, rate:0, size:62
+2025-11-14 17:52:42, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:42, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:42, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:42, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:42, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:42, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:43, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:43, EXEC, v:1, k:poo@array, mode:LOCK, rate:0
+2025-11-14 17:52:48, MOVE, v:1, k:poo@array, mode:BACK
+2025-11-14 17:53:13, MOVE, v:1, k:poo@array, mode:PICK
+2025-11-14 17:53:14, EXEC, v:1, k:poo@array, mode:LOCK, rate:0, size:58
+2025-11-14 17:53:31, MOVE, v:1, k:poo@array, mode:BACK
+2025-11-14 18:40:59, MOVE, v:1, k:poo@array, mode:PICK
+2025-11-14 18:41:00, EXEC, v:1, k:poo@array, mode:LOCK, rate:0, size:63
+2025-11-14 18:41:01, MOVE, v:1, k:poo@array, mode:BACK
+2025-11-14 18:41:16, MOVE, v:1, k:poo@budega, mode:PICK
+2025-11-14 18:41:17, EXEC, v:1, k:poo@budega, mode:FULL, rate:0
+2025-11-14 18:41:20, MOVE, v:1, k:poo@budega, mode:BACK
+2025-11-14 18:41:22, MOVE, v:1, k:poo@budega, mode:PICK
+2025-11-14 18:41:28, EXEC, v:1, k:poo@budega, mode:FULL, rate:0
+2025-11-14 18:41:29, MOVE, v:1, k:poo@budega, mode:BACK
