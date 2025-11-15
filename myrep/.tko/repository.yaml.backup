@@ -12,7 +12,7 @@ sources:
   type: clone
   branch: master
   cache_path: /workspaces/poo-rc-bloco-c-Eduardoe239/myrep/.tko/cache/poo/Readme.md
-  cache_timestamp: '2025-11-15 15:15:03'
+  cache_timestamp: '2025-11-15 20:20:59'
   filters:
   - listas
 expanded:
