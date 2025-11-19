@@ -22,3 +22,9 @@
 2025-11-18 19:57:52, MOVE, v:1, k:poo@lapiseira, mode:PICK
 2025-11-18 19:57:53, EXEC, v:1, k:poo@lapiseira, mode:FULL, rate:0, size:86
 2025-11-18 19:57:53, MOVE, v:1, k:poo@lapiseira, mode:BACK
+2025-11-18 23:57:57, MOVE, v:1, k:poo@lapiseira, mode:PICK
+2025-11-18 23:57:58, EXEC, v:1, k:poo@lapiseira, mode:FULL, rate:0, size:87
+2025-11-18 23:57:59, MOVE, v:1, k:poo@lapiseira, mode:BACK
+2025-11-18 23:58:13, MOVE, v:1, k:poo@pula-pula, mode:PICK
+2025-11-18 23:58:16, EXEC, v:1, k:poo@pula-pula, mode:FULL, rate:0
+2025-11-18 23:58:17, MOVE, v:1, k:poo@pula-pula, mode:BACK

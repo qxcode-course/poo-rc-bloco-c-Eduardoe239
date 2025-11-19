@@ -2,8 +2,38 @@
     "patches": [
         {
             "label": "2025-11-15_20-28-55",
-            "content": "",
+            "content": "@@ -1,181 +0,0 @@\n-class Crianca:%0A    def __init__(self, nome: str, idade: int):%0A        self.nome = nome%0A        self.idade = idade%0A%0A    def __repr__(self):%0A        return f%22%7Bself.nome%7D:%7Bself.idade%7D%22\n",
             "lines": "0"
+        },
+        {
+            "label": "2025-11-19_00-26-07",
+            "content": "@@ -178,234 +178,4 @@\n de%7D%22\n-%0A    %0A    class PulaPula:%0A        def __init__(self):%0A            self.fila_espera = %5B%5D%0A            self.no_pula_pula = %5B%5D%0A%0A        def chegar(self, nome: str, idade: int):%0A            self.fila_espera.append(Crianca(nome, idade))\n",
+            "lines": "7"
+        },
+        {
+            "label": "2025-11-19_00-47-07",
+            "content": "@@ -408,361 +408,4 @@\n de))\n-%0A%0A        def entrar(self):%0A            if not self.fila_espera:%0A                return%0A            crianca = self.fila_espera.pop(0)%0A            self.no_pula_pula.append(crianca)%0A%0A        def sair(self):%0A            if not self.no_pula_pula:%0A                return%0A            crianca = self.no_pula_pula.pop(0)%0A            self.fila_espera.append(crianca)\n",
+            "lines": "15"
+        },
+        {
+            "label": "2025-11-19_01-52-37",
+            "content": "@@ -765,135 +765,4 @@\n nca)\n-%0A        %0A        def remover(self, nome: str):%0A            for c in self.fila_espera:%0A                if c.nome == nome:%0A        %0A\n",
+            "lines": "27"
+        },
+        {
+            "label": "2025-11-19_02-12-41",
+            "content": "@@ -895,70 +895,5 @@\n     \n-            self.fila_espera.remove(c)%0A                    return\n %0A\n",
+            "lines": "32"
+        },
+        {
+            "label": "2025-11-19_02-13-13",
+            "content": "@@ -961,194 +961,4 @@\n urn%0A\n-%0A        def mostrar(self):%0A            fila = %22, %22.join(map(str, self.fila_espera))%0A            dentro = %22, %22.join(map(str, self.no_pula_pula))%0A            print(f%22%5B%7Bfila%7D%5D =%3E %5B%7Bdentro%7D%5D%22)%0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2025-11-19_03-02-14",
+            "content": "class Crianca:\n    def __init__(self, nome: str, idade: int):\n        self.nome = nome\n        self.idade = idade\n\n    def __repr__(self):\n        return f\"{self.nome}:{self.idade}\"\n    \n    class PulaPula:\n        def __init__(self):\n            self.fila_espera = []\n            self.no_pula_pula = []\n\n        def chegar(self, nome: str, idade: int):\n            self.fila_espera.append(Crianca(nome, idade))\n\n        def entrar(self):\n            if not self.fila_espera:\n                return\n            crianca = self.fila_espera.pop(0)\n            self.no_pula_pula.append(crianca)\n\n        def sair(self):\n            if not self.no_pula_pula:\n                return\n            crianca = self.no_pula_pula.pop(0)\n            self.fila_espera.append(crianca)\n        \n        def remover(self, nome: str):\n            for c in self.fila_espera:\n                if c.nome == nome:\n                    self.fila_espera.remove(c)\n                    return\n\n        def mostrar(self):\n            fila = \", \".join(map(str, self.fila_espera))\n            dentro = \", \".join(map(str, self.no_pula_pula))\n            print(f\"[{fila}] => [{dentro}]\")\n",
+            "lines": "38"
         }
     ]
 }

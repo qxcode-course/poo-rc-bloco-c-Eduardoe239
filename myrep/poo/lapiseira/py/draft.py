@@ -83,4 +83,32 @@ def main():
         print(f"${line}")
         cmd = line.split()
         op = cmd[0]
+        if op == "end":
+            break
 
+        if op == "init":
+            lap = Lapiseira(float(cmd[1]))
+
+        elif op == "insert":
+            cal = float(cmd[1])
+            dur = cmd[2]
+            tam = int(cmd[3])
+            lap.insert(Grafite(cal, dur, tam))
+        
+        elif op == "pull":
+            lap.pull()
+
+        elif op == "remove":
+            lap.remove()
+
+        elif op == "write":
+            lap.write()
+
+        elif op == "show":
+            lap.show()
+
+        else:
+            print("fail: comando invalido")
+
+
+main()
