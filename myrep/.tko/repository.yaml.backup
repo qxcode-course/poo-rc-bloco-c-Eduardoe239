@@ -12,7 +12,7 @@ sources:
   type: clone
   branch: master
   cache_path: /workspaces/poo-rc-bloco-c-Eduardoe239/myrep/.tko/cache/poo/Readme.md
-  cache_timestamp: '2025-11-18 23:19:29'
+  cache_timestamp: '2025-11-19 20:18:26'
   filters:
   - listas
 expanded:
@@ -24,6 +24,7 @@ tasks:
   poo@array: '{rate:100, alone:10}'
   poo@budega: '{rate:100, alone:10}'
   poo@lapiseira: '{rate:100, alone:10, study:450}'
+  poo@pula-pula: '{rate:100, alone:10, study:570}'
 flags:
   quests: 0
   tracks: 0
